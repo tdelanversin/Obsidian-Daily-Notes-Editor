@@ -214,7 +214,7 @@
             // Optionally, add custom Escape logic here
         }
     }
-
+    
     // Toggle collapse/expand state
     function toggleCollapse() {
         isCollapsed = !isCollapsed;
