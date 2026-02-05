@@ -167,6 +167,15 @@
             editor.focus();
         }
     }
+
+    // Prevent Escape from bubbling up and switching tabs
+    function handleEditorKeydown(event: KeyboardEvent) {
+        if (event.key === "Escape") {
+            event.stopPropagation();
+            event.preventDefault();
+            // Optionally, add custom Escape logic here
+        }
+    }
     
     // Toggle collapse/expand state
     function toggleCollapse() {
