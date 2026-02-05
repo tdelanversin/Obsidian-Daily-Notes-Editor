@@ -36,7 +36,7 @@
         "vite": "^5.2.10"
     },
     "dependencies": {
-        "@codemirror/state": "^6.5.2",
+        "@codemirror/state": "^6.5.0",
         "@codemirror/view": "^6.36.3",
         "monkey-around": "^2.3.0"
     }
